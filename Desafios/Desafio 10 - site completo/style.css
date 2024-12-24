@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@media (max-width: 600px) {
+    .imagem-dinamica {
+        content: url('imagens/dan-droids-pq.png');
+    }}
+
+@media (max-width: 600px) {
+    .imagem-dinamica2 {
+        content: url('imagens/irina-blok-pq.jpg');
+    }}
+    .imagem-dinamica{
+        text-align: center;
+    }
+
+    .imagem-dinamica2{
+        text-align: center;
+    }
+    .bugdroid{
+        text-align: center;
+    }
+    iframe{
+    
+    }
+
+body{
+    background-color: #01411e70;
+}
+header{
+    text-align: center;
+    background-color: grey;
+    box-shadow: 0px 0px 10px black;
+}
+.menu{
+    box-shadow: 3px 3px 10px black;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.menu > a{
+    margin-left: 90px;
+    color: white;
+    font-weight: bold;
+}
+
+
+main{
+    box-shadow: 3px 3px 10px black;
+    padding: 30px;
+    margin: 0px auto;
+    background-color: #2e4e3391;
+    max-width: 900px;
+}
+
+h1{
+    padding-left: 5px;
+}
+#titulo{
+    color: greenyellow;
+    font-family: 'idroid';
+    padding-left: 15px;
+    
+}
+h2{
+    color: greenyellow;
+    font-family: 'idroid';
+    margin-left: 15px;
+    padding-left: 15px;
+    background: linear-gradient(to right, #acff2f9c, #2e4e3300);
+}
+    
+

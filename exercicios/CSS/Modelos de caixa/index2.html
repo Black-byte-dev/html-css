@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+
+    <style>
+        /*
+        border-image: url('borda.png') 10px repeat/treach;
+        */
+        body{
+            background-color: grey;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+         footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+         }
+         h1{
+            text-align: center;
+            box-shadow: 2px 2px 9px 1px rgba(0, 0, 0, 0.527);
+         }
+         nav{
+            background-color: grey;
+            padding: 3px;
+            box-shadow: 5px 5px 7px 1px rgba(0, 0, 0, 0.507);
+         }
+         nav > a:hover{
+            text-decoration: underline;
+         }
+         nav > a{
+            font-weight: bold;
+            color: white;
+            margin-left: 70px;
+         }
+
+         section{
+            padding: 3px;
+            background-color: grey;
+         }
+
+         footer > p{
+            margin: 0px;
+         }
+
+         article > aside{
+            background-color: rgb(49, 49, 49);
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>        
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ratione placeat pariatur laboriosam dolores, minima consequatur labore, iure delectus voluptatibus perferendis praesentium autem exercitationem dolor in? Labore non similique tempore.</p>
+                <aside>
+                    <p>artigo escrito por felipe</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido pelo felipe</p>
+    </footer>
+</body>
+</html>

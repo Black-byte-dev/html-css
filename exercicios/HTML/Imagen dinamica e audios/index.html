@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen dinamica</title>
+</head>
+<body>
+    <h1>Imagen dinamica</h1>
+    <p>Tente abrir esse site em varios tamanhos de tela</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/M.png" type="image/png">
+        <img src="Imagens/G.png" alt="Imagen grande">
+    </picture>
+
+    <h1>reproduzindo audio</h1>
+    <p>reproduzindo audios em html</p>
+    <audio src="midia/Mp3 Foragido.mp3" controls></audio>
+    <br>
+    <!-- mp3 wav ogg-->
+    <audio preload="metadata" controls loop>
+        <source src="midia/Áudio do WhatsApp de 2024-05-24 à(s) 22.09.49_d1a39b10.mp3"   
+                type="audio/mpeg">
+        <source src="midia/Áudio do WhatsApp de 2024-05-24 à(s) 22.09.49_d1a39b10.ogg"
+                type="audio/ogg">
+        <source src="midia/Áudio do WhatsApp de 2024-05-24 à(s) 22.09.49_d1a39b10.wav"
+                type="audio/wav">         
+    </audio>
+
+    <p>infelizmente seu navegador não roda mp3
+        <br>
+        <a href="midia/Mp3 Foragido.mp3">Baixar Musica</a>
+    </p>
+       
+
+
+
+</body>
+</html>
